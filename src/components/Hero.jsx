@@ -110,8 +110,7 @@ const Hero = () => {
         </motion.div>
 
         <motion.img
-          // src={profilepic}
-          src=""
+          src={profilepic}
           className="w-[300px] md:w-[320px]"
           initial={{ opacity: 0, scale: 0.8 }}
           whileInView={{ opacity: 1, scale: 1 }}
